@@ -15,9 +15,10 @@
 #     AbC.1 23 es válida:     False 
 #     ÁbC.123 es válida:      False  
     
-# Para la búsqueda de caracteres de cierto tipo (mayúsculas, acentos, espacios y otros)
-# debe hacerse uso de la librería re: - https://docs.python.org/es/3/library/re.html -
-# https://relopezbriega.github.io/blog/2015/07/19/expresiones-regularescon-python/ - 
+# Para la búsqueda de caracteres de cierto tipo (mayúsculas, acentos, espacios y 
+# otros) debe hacerse uso de la librería re: - https://docs.python.org/es/3/
+# library/re.html - https://relopezbriega.github.io/blog/2015/07/19/expresiones-
+# regularescon-python/ - 
 # Para buscar caracteres especiales, puede utilizarse la siguiente expresión
 # [$&+,:;=?@#|<>.^*()%!-]
 
