@@ -1,7 +1,9 @@
-# Escribir una función suma(numero) que resuelva la siguiente suma, asumiendo que numero = 10: 1+2+3+4+5+6+7+8+9+10
+# Escribir una función suma(numero) que resuelva la siguiente suma, asumiendo 
+# que numero = 10: 1+2+3+4+5+6+7+8+9+10
 # El programa que invoque dicha función:
 # i. El usuario debe poder ingresar el valor del parámetro número
-# ii. Debe validarse que el dato ingresado por el usuario corresponda a un dígito, y no a otro tipo de dato como un carácter
+# ii. Debe validarse que el dato ingresado por el usuario corresponda 
+# a un dígito, y no a otro tipo de dato como un carácter
 # iii. El cálculo debe realizarse usando algún tipo de bucle - LISTO
 
 def suma(numero):
