@@ -19,14 +19,65 @@
 # iv. a == True or b == False
 #     a or not b
 
-a = True
-b = False
-c = True
-
 def procesar_sentencias(a, b, c):
-    print(a or b or (b and c))
-    print(b and c)
-    print(a and b or c)
-    print(a or not b)
+    print('\na=' + str(b) + ', b=' + str(b) + ', c=' + str(c))
 
+    #Punto i.
+    sentencia = (a or b) or (b and c)
+    sentencia_reducida = a or b
+    print(f"i. {sentencia} | {sentencia_reducida}")
+
+    #Punto ii.
+    sentencia = b and c or False
+    sentencia_reducida = b and c
+    print(f"ii. {sentencia} | {sentencia_reducida}")
+
+    #Punto iii.
+    sentencia = a and b or c or (b and a)
+    sentencia_reducida = a and b or c
+    print(f"iii. {sentencia} | {sentencia_reducida}")
+
+    #Punto iv.
+    sentencia = a == True or b == False
+    sentencia_reducida = a or not b
+    print(f"iv. {sentencia} | {sentencia_reducida}")
+
+a=True
+b=False
+c=False
+procesar_sentencias(a, b, c)
+
+a=False
+b=True
+c=False
+procesar_sentencias(a, b, c)
+
+a=False
+b=False
+c=True
+procesar_sentencias(a, b, c)
+
+a=True
+b=True
+c=False
+procesar_sentencias(a, b, c)
+
+a=False
+b=True
+c=True
+procesar_sentencias(a, b, c)
+
+a=True
+b=False
+c=True
+procesar_sentencias(a, b, c)
+
+a=True
+b=True
+c=True
+procesar_sentencias(a, b, c)
+
+a=False
+b=False
+c=False
 procesar_sentencias(a, b, c)
